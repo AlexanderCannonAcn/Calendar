@@ -9,7 +9,7 @@ interface CalendarInterface
     /**
      * @param DateTimeInterface $datetime
      */
-    public function __construct(DateTimeInterface $datetime);
+    public function __construct($datetime);
 
     /**
      * Get the day
